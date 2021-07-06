@@ -8,10 +8,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="flexiable top-banner">
+    <nav>
+        <div id="navigation">
+            <div class="">
+                <ul>
+                    <!-- top navigation use selected class for selected item -->
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipies">Recipies</a></li>
+                    <li><a href="#followers">Followers</a></li>
+                    <li><a href="#review">Review</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="flexiable top-banner">
         <div class="half-text">
             <h1>Welcome to</h1>
             <h1><span class="title-color">Hello Food Resturant</span> Shop!</h1>
@@ -20,13 +35,13 @@
                  <a class="link-button" target="blank" href="https://www.facebook.com/">Order food</a>
         </div>
         <div class="half-text">
-            <img class="img" src="assets/img/Group 8425.png">
+            <img class="img-home" src="assets/img/home_pc-removebg-preview.png">
 
         </div>
     </section>
-    <section class="dream-big flexiable">
+    <section id="about" class="dream-big flexiable">
         <div class="half-text">
-            <img class="img" src="assets/img/Person Image.png" alt="">
+            <img class="img" src="assets/img/about_pc.png" alt="">
         </div>
         <div class="half-text">
             <h2>About Me</h2>
@@ -36,7 +51,7 @@
         </div>
     </section>
 
-    <section class="expr-area">
+    <section id="recipies" class="expr-area">
         <div class="text-center">
             <h2>My Recipies</h2>
             Mouth-watering restaurant menu descriptions can make your clients crave your offerings <br>and happy patrons come back many times. The menu has been called “a map that encourages <br>
@@ -62,15 +77,15 @@
         </div>
     </section>
 
-    <section class="expr-area text-center">
+    <section id="followers" class="expr-area text-center">
         <div class="flexiable likes">
             <div class="half-text likes-item">
                 <h1>700k</h1>
-                <small>Youtube suscriber</small>
+                <small>Youtube subscriber</small>
             </div>
             <div class="half-text likes-item">
                 <h1>2.4m</h1>
-                <small>Instragram follers</small>
+                <small>Instragram followers</small>
             </div>
             <div class="half-text likes-item">
                 <h1>100k</h1>
@@ -78,21 +93,40 @@
             </div>
         </div>
     </section>
-    <!-- <section class="contact">
-        <h2>Contact Us</h2>
-        <div class="social-media half-text">
-            <a  href="https://github.com/prosenjit-chd" target="blank"><i class="fab fa-3x fa-github-square" style="color: #464646;"></i></a>
-            <a  href="https://twitter.com/rsch97" target="blank"><i class="fab fa-3x fa-twitter-square" style="color: #5BA4D6;"></i></a>
-            <a  href="https://www.linkedin.com/in/prosenjit-chowdhury-4968b1195/" target="blank"><i class="fab fa-3x fa-linkedin" style="color: #2764AC;"></i></a>
-            <a  href="https://www.facebook.com/prosenjit.chowdhury.988" target="blank"><i class="fab fa-3x fa-facebook-square" style="color: #1873EB;"></i></a>
+    <section id="review" class="expr-area">
+        <div class="text-center">
+            <h2>Customers Says About Us</h2>
+            National and International scholars, Business leaders, Entrepreneurs, Dignitaries visited us <br>
+            to share experiences, explore opportunities, collaborate and give guidance to the resturant 
+            
         </div>
-        <div class="half-text">
-            <h3>Address</h3>
-            <h4>Zigatola, Dhanmondi<br>Dhaka-1209</h4>
+        <div class="flexiable">
+            <div id="web-del" class="half-text exper-item flexiable">
+                <img class="customer-img" src="assets/img/partha.jpg" alt="">
+                <div>
+                    <h3>Partha Balaji</h3>
+                <small>Eating spaghetti requires so much attention. That’s why you can never.</small>
+                </div>
+            </div>
+    
+            <div id="baby-del" class="half-text  exper-item flexiable">
+                <img class="customer-img" src="assets/img/amiya.jpg" alt="">
+               <div>
+                <h3>Amiya Bala</h3>
+                <small>Never break a promise! On the other hand, you can break.</small>
+               </div>
+            </div>
+            <div id="web-del" class="half-text exper-item flexiable">
+                <img class="customer-img" src="assets/img/ananta.jpg" alt="">
+                <div>
+                    <h3>Ananta Ghosh</h3>
+                <small>If no one catches you eating it, then it has no calories. This, my friend.</small>
+                </div>
+            </div>
         </div>
-    </section> -->
+    </section>
 
-    <footer class="text-center">
+    <footer>
         <h3> <span class="title-color">HELLO</span> FOOD</h3>
         <small>Developed by Prosenjit Chowdhury-2021</small>
     </footer>
